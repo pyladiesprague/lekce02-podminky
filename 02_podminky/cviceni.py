@@ -27,23 +27,24 @@ znamka3 = 2
 
 
 
-# 4) Máš proměnnou znamka (číslo 1 až 5). Pomocí if/elif/else vypiš
-#    slovní hodnocení: 1 → "výborně", 2 → "chvalitebně", 3 → "dobře",
-#    a cokoli dalšího → "je co zlepšovat".
-znamka = 3
+# 4) Máš proměnnou barva se stavem semaforu ("červená", "oranžová"
+#    nebo "zelená"). Vypiš, co má řidič udělat:
+#    "červená" → "Stůj", "oranžová" → "Připrav se", "zelená" → "Jeď",
+#    cokoli jiného → "Neznámý signál".
+barva = "zelená"
 
 
 
-# 5) Zeptej se uživatele na teplotu. Vypiš:
-#    pod 0 → "Mrzne.", pod 15 → "Chladno.", pod 25 → "Příjemně.",
-#    jinak → "Horko.".
+# 5) Zeptej se na počet bodů z testu (0 až 100) a vypiš známku:
+#    90 a víc → 1, 75 a víc → 2, 60 a víc → 3, 40 a víc → 4,
+#    jinak → 5.
 
 
 
 # 6) Vnořená podmínka s otázkami na uživatele.
-#    Zeptej se: "Prší? (ano/ne)" a ulož odpověď do proměnné prsi.
-#    Když prší, zeptej se ještě "Máš deštník? (ano/ne)" a ulož do mam_destnik.
-#      - když má deštník, vypiš "Beru deštník, nezmoknu."
-#      - když nemá, vypiš "Zmoknu."
-#    Když neprší, vypiš "Sluníčko, jde se ven!".
+#    Zeptej se: "Máš hlad? (ano/ne)" a ulož odpověď do proměnné hlad.
+#    Když má hlad, zeptej se ještě "Máš doma jídlo? (ano/ne)":
+#      - když má jídlo, vypiš "Uvař si."
+#      - když nemá, vypiš "Objednej si."
+#    Když nemá hlad, vypiš "Tak nic, uvidíme později.".
 

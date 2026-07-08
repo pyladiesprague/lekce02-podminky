@@ -42,3 +42,19 @@ else:
 if teplota > 15:
     print("Tohle jen když je teplo.")
 print("Tohle se vypíše vždycky.")
+
+
+# ---
+# POZOR na odsazení
+# Všechny řádky uvnitř if-u musí být odsazené STEJNĚ. Nejlíp pořád
+# klávesou Tab, ať je odsazení všude stejné.
+#
+# Když to nesedí, Python soubor ani nespustí a napíše chybu IndentationError. 
+# Například v následujícím kódu je třetí řádek odsazený víc:
+#
+#     if vek >= 18:
+#         print("Jsi plnoletá.")
+#             print("Můžeš volit.")     # IndentationError!
+#
+# Až tuhle chybu uvidíš, zkontroluj, jestli máš
+# všechny řádky v bloku odsazené na stejné úrovni
