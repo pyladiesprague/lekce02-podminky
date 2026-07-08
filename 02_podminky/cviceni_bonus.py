@@ -15,11 +15,11 @@ b = 25
 c = 8
 
 
-# B3) FizzBuzz pro jedno číslo.
+# B3) Bum-Bác pro jedno číslo.
 #     Zeptej se na číslo a vypiš:
-#       - "FizzBuzz", když je dělitelné třemi i pěti zároveň,
-#       - "Fizz", když je dělitelné jen třemi,
-#       - "Buzz", když je dělitelné jen pěti,
+#       - "BumBác", když je dělitelné třemi i pěti zároveň,
+#       - "Bum", když je dělitelné jen třemi,
+#       - "Bác", když je dělitelné jen pěti,
 #       - jinak samotné číslo.
 
 

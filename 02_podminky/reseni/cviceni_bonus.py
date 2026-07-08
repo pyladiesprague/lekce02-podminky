@@ -28,17 +28,17 @@ else:
         print(c)
 
 
-# B3) FizzBuzz pro jedno číslo.
+# B3) Bum-Bác pro jedno číslo.
 #     Dělitelnost třemi i pěti = dělitelnost patnácti. Musí se testovat
-#     jako první – jinak by číslo spadlo hned do větve "Fizz" nebo "Buzz"
-#     a na "FizzBuzz" by nikdy nedošlo.
+#     jako první – jinak by číslo spadlo hned do větve "Bum" nebo "Bác"
+#     a na "BumBác" by nikdy nedošlo.
 cislo = int(input("Zadej číslo: "))
 if cislo % 15 == 0:
-    print("FizzBuzz")
+    print("BumBác")
 elif cislo % 3 == 0:
-    print("Fizz")
+    print("Bum")
 elif cislo % 5 == 0:
-    print("Buzz")
+    print("Bác")
 else:
     print(cislo)
 
