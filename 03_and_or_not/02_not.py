@@ -24,22 +24,6 @@ if not prihlaseny:
 
 
 # ---
-# Častá chyba: and/or spojují CELÉ podmínky, ne holá čísla.
-#
-# Chceš zjistit, jestli je některá ze stran a, b záporná. Správně
-# musíš napsat porovnání dvakrát – zvlášť pro a a zvlášť pro b:
-#
-#     if a < 0 or b < 0:        # správně
-#
-# Když se to pokusíš zkrátit takhle, je to chyba:
-#
-#     if a or b < 0:           # ŠPATNĚ
-#
-# Python to čte jako „(a)  nebo  (b < 0)" – u prvního čísla žádné
-# porovnání není. Vždycky napiš celé porovnání na OBOU stranách or / and.
-
-
-# ---
 # not umí otočit i celou složenou podmínku. Dej ji do závorky
 # a před ni napiš not – tím obrátíš výsledek CELÉ závorky.
 heslo_ok = True

@@ -37,24 +37,24 @@ else:
 # Vždycky se spustí právě jedna z těch dvou větví, nikdy obě.
 
 
-# Pozor na odsazení: řádek BEZ odsazení už do if-u nepatří
-# a spustí se pokaždé, ať podmínka platí, nebo ne.
+# ---
+# Odsazení je důležité – rozhoduje o tom, co do if-u patří,
+# a začátečnice na něm chybují nejčastěji.
+#
+# Řádek BEZ odsazení už do if-u nepatří a spustí se pokaždé,
+# ať podmínka platí, nebo ne:
 if teplota > 15:
     print("Tohle jen když je teplo.")
 print("Tohle se vypíše vždycky.")
 
-
-# ---
-# POZOR na odsazení
-# Všechny řádky uvnitř if-u musí být odsazené STEJNĚ. Nejlíp pořád
-# klávesou Tab, ať je odsazení všude stejné.
-#
-# Když to nesedí, Python soubor ani nespustí a napíše chybu IndentationError. 
-# Například v následujícím kódu je třetí řádek odsazený víc:
+# A naopak řádky, které do if-u patří, musí být odsazené STEJNĚ –
+# nejlíp pořád klávesou Tab. Když to nesedí, Python soubor ani
+# nespustí a vypíše chybu IndentationError. Například tady je
+# třetí řádek odsazený víc:
 #
 #     if vek >= 18:
 #         print("Jsi plnoletá.")
 #             print("Můžeš volit.")     # IndentationError!
 #
-# Až tuhle chybu uvidíš, zkontroluj, jestli máš
-# všechny řádky v bloku odsazené na stejné úrovni
+# Až tuhle chybu uvidíš (a uvidíš ji často), zkontroluj, jestli máš
+# všechny řádky v bloku odsazené na stejné úrovni.

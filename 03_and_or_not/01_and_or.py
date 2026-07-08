@@ -31,6 +31,20 @@ else:
     print("Obvod je", 2 * (a + b))
 
 
+# ---
+# Pozor: and/or spojují CELÉ podmínky, ne holá čísla.
+# Všimni si, že nahoře máme porovnání dvakrát – zvlášť pro a a zvlášť pro b:
+#
+#     if a <= 0 or b <= 0:      # správně
+#
+# Když se to pokusíš zkrátit takhle, je to chyba:
+#
+#     if a or b <= 0:           # ŠPATNĚ
+#
+# Python to čte jako „(a)  nebo  (b <= 0)" – u prvního čísla žádné
+# porovnání není. Vždycky napiš celé porovnání na OBOU stranách or / and.
+
+
 # A vzpomínáš na „největší ze tří" z bonusového cvičení? S and se z toho stane
 # jediná podmínka místo vnořených if:
 x = 12

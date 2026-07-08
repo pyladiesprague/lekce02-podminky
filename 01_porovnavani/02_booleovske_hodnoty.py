@@ -18,8 +18,9 @@ je_plnolety = 20 >= 18
 print(je_plnolety)     # True
 
 
-mam_hlad = 3 > 10
-print(mam_hlad)        # False
+teplota = 5
+je_zima = teplota < 0
+print(je_zima)         # False – 5 stupňů, ještě nemrzne
 
 
 # Pozor na rozdíl:
