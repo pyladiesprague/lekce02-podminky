@@ -56,3 +56,17 @@ if vek < 18 or vek >= 65 or den == "pondělí":
     print("Máš slevu.")
 else:
     print("Plné vstupné.")
+
+
+# 6) Zabezpečení domu. Dům je zabezpečený, jen když jsou zavřené dveře,
+#    zavřená okna a zároveň zapnutý alarm.
+#    Zeptej se na všechny tři věci (ano/ne). Pomocí not (…) vypiš
+#    "Pozor, dům není zabezpečený!", když zabezpečený NENÍ,
+#    jinak vypiš "Zabezpečeno.".
+dvere = input("Zavřené dveře? (ano/ne) ")
+okna = input("Zavřená okna? (ano/ne) ")
+alarm = input("Zapnutý alarm? (ano/ne) ")
+if not (dvere == "ano" and okna == "ano" and alarm == "ano"):
+    print("Pozor, dům není zabezpečený!")
+else:
+    print("Zabezpečeno.")

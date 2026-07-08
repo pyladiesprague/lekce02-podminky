@@ -35,3 +35,11 @@ ma_zakaz = True
 # 5) Sleva na vstupné. Slevu mají děti (do 18 let) a senioři (65 a víc).
 #    Navíc mají v pondělí slevu úplně všichni.
 #    Zeptej se na věk a na den a vypiš "Máš slevu." / "Plné vstupné.".
+
+
+
+# 6) Zabezpečení domu. Dům je zabezpečený, jen když jsou zavřené dveře,
+#    zavřená okna a zároveň zapnutý alarm.
+#    Zeptej se na všechny tři věci (ano/ne). Pomocí not (…) vypiš
+#    "Pozor, dům není zabezpečený!", když zabezpečený NENÍ,
+#    jinak vypiš "Zabezpečeno.".
