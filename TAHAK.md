@@ -42,21 +42,11 @@ else:
     print("Něco jiného.")   # jinak (nepovinné)
 ```
 
-- Za podmínkou **dvojtečka**, tělo **odsazené** (Tab).
-- Python jde odshora dolů, spustí **první** platnou větev, zbytek přeskočí.
-- `elif` může být víc, `else` je nepovinné.
-
 ## and / or / not
 
 ```python
 vek >= 18 and vek < 65   # A ZÁROVEŇ – platí, jen když platí obě
 den == "so" or den == "ne"   # NEBO – stačí aspoň jedna
 not prsi                 # NE – otočí True <-> False
-```
-
-Vždy piš celé porovnání na obou stranách:
-
-```python
-if a <= 0 or b <= 0:     # správně
-if a or b <= 0:          # ŠPATNĚ – u a chybí porovnání
+(je_vikend and hezky) or je_svatek   # závorky seskupí a spojí víc podmínek
 ```
